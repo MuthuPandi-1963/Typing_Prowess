@@ -1,0 +1,112 @@
+/* CSS code for styling the website */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #603f02;
+
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+header {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: bolder;
+  font-family: "Script MT Bold" ;
+  color: white;
+  -webkit-background-clip: text;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 45px;
+  padding-top: 0;
+  text-align:right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.img{
+  display: flex;
+  float: left;
+  border-radius: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #36aabe;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f1f1f1;
+}
+
+#hero {
+  background-size: cover;
+  color: #fff;
+  padding: 200px 0;
+  text-align: center;
+  -ms-background-position-x:67px;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+#hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #0539bd;
+  border-radius: 25px 50px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ec0b0b;
+}
+
+#about {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#about p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
